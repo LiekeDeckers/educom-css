@@ -21,3 +21,21 @@ html, body {
     background-color: rgba(255,0,0,0.4);
     display: inline-block;
 }
+
+.cascading-parent {
+    font-weight: bold;
+    color: #FFF
+    font-size: 12px;
+}
+
+.cascading-child {
+    background-color: #FF0;
+    width: 200px;
+    height: 200px; 
+}
+
+.cascading-child2 {
+    background-color: rgba(255,0,0,0.4);
+    width: 100px;
+    height: 100px;
+}
