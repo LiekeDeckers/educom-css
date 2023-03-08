@@ -1,10 +1,41 @@
-/**
- * Basis CSS file
- *
- * @author  Educom
- * @version 1.0
- *
- */
+:root {
+
+    /* FONTS */
+    --regular: 'Arial'
+    
+    /* COLORS */
+    --dark-brown: ##402214;
+    --lighter-brown:  #774231;
+    --lightest-brown: #aa4b1b;
+    
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+    
+    --white: #FFF;
+    --black: #000;
+
+    /* BACKGROUND */
+    --bg-color-light:#FFA;
+    --bg-color-dark: #00F;
+    --bg-margin-small: 10px;
+    --bg-margin-large: 50px;
+    --bg-padding-small: 10px;
+    --bg-padding-large: 50px;
+
+    }
+    
+    h1 {
+        font-family: var(--regular);
+        color: var(--darker-red);
+    }
+
+    h2 {
+        font-family: var(--regular);
+        background-color: var(--bg-color-light);
+        color: var(--lightest-brown);
+        padding: var(--bg-padding-small);
+        margin: var(--bg-margin-small);
+    }
 
 html, body {
     margin: 0;
