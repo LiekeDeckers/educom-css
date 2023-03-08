@@ -26,11 +26,11 @@ html, body {
 .block {
     background-color:grey;
     color:white;
+    margin: auto;
     font-size: 20px;
     display: inline-block;
     width: 32%;
     height: 300px;
-    margin: 5px;
     border: 0px solid transparent;
     border-radius: 5%;
     transition: all 0.3 ease;
@@ -71,4 +71,5 @@ html, body {
     background-color:gray;
     color:white;
     padding: 40px;
+    font-size: 22px;
 }
