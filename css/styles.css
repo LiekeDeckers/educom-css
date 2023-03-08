@@ -22,20 +22,17 @@ html, body {
     display: inline-block;
 }
 
-.cascading-parent {
-    font-weight: bold;
-    color: #FFF
-    font-size: 12px;
+a {
+    font-size: 22px;
+    color: #F0F;
+} 
+
+.cascading-parent h2 {
+    color: #FD0;
+    
 }
 
-.cascading-child {
-    background-color: #FF0;
-    width: 200px;
-    height: 200px; 
-}
-
-.cascading-child2 {
-    background-color: rgba(255,0,0,0.4);
-    width: 100px;
-    height: 100px;
+.cascading-parent a {
+    font-size: 22px;
+    color: #ad0707cb;
 }
