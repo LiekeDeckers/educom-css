@@ -53,3 +53,23 @@ a {
     height: 200px;
     padding: 20px;
 }
+
+/* unvisited link */
+a:link {
+    color:blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:rgb(130, 130, 199);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color:red;
+  }
