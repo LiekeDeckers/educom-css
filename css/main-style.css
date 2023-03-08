@@ -73,3 +73,38 @@ html, body {
     padding: 40px;
     font-size: 22px;
 }
+
+/* DROPDOWN MENU */
+.menu {
+    position: fixed;
+    top: 60px;
+    right: 50px;
+}
+
+.menu-trigger {
+    background-color: rgba(245, 0, 0, 0);
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    z-index: 5000 !important;
+}
+
+.menu-trigger:hover {
+    background-color: #3e3535ef;
+}
+
+.menu-trigger:hover .dropdown {
+    top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    top: -400px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: #FDF;
+    transition: all 0.4s ease;
+    padding: 40px;
+}
